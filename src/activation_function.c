@@ -1,3 +1,9 @@
+/*
+  Copyright (c) 2017, Jiemeng Zou
+  All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be found
+  in the LICENSE file.
+*/
 #include <math.h>
 #include "global.h"
 #include "activation_function.h"

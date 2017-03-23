@@ -1,3 +1,9 @@
+/*
+  Copyright (c) 2017, Jiemeng Zou
+  All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be found
+  in the LICENSE file.
+*/
 #include <stdio.h>
 #include "global.h"
 #include "layer_function.h"
@@ -12,7 +18,7 @@ double check_accuracy(INPUT_LAYER *input, CONV_LAYER *conv1,
 //The example runs only if the following three macro definitions are commented 
 //out
 #if !defined(NETWORK_GRAD_CHECK) && !defined(CONV_LAYER_GRAD_CHECK) && \
-									!defined(FC_LAYER_GRAD_CHECK)
+                                    !defined(FC_LAYER_GRAD_CHECK)
 //======Example:convolutional neural networks (LeNet-5 like architecture)======
 int main()
 {
@@ -23,9 +29,9 @@ int main()
 	FC_LAYER output;
 
 	//Enter the file path of the test dataset and training dataset
-	train_data = "../data/train_sample.tcnn";
+	train_data = "../data/train_sample_n.tcnn";
 	train_label = "../data/train_label.tcnn";
-	test_data = "../data/test_sample.tcnn";
+	test_data = "../data/test_sample_n.tcnn";
 	test_label = "../data/test_label.tcnn";
 
 	//Initialize each layer

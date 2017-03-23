@@ -15,28 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\SharedFolder\wave_cnn\src\example.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\SharedFolder\wave_cnn\src\layer_function.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\SharedFolder\wave_cnn\src\activation_function.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="..\src\layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\layer_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\activation_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\SharedFolder\wave_cnn\src\global.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\SharedFolder\wave_cnn\src\layer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\SharedFolder\wave_cnn\src\layer_function.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\SharedFolder\wave_cnn\src\activation_function.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="..\src\activation_function.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\example.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\layer_function.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
