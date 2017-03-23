@@ -45,7 +45,7 @@ double check_accuracy(INPUT_LAYER *input, CONV_LAYER *conv1,
 //The example runs only if the following three macro definitions are commented 
 //out
 #if !defined(NETWORK_GRAD_CHECK) && !defined(CONV_LAYER_GRAD_CHECK) && \
-									!defined(FC_LAYER_GRAD_CHECK)
+                                    !defined(FC_LAYER_GRAD_CHECK)
 //======Example:convolutional neural networks (LeNet-5 like architecture)======
 int main()
 {
@@ -111,7 +111,7 @@ void train(INPUT_LAYER *input, CONV_LAYER *conv1, POOLING_LAYER *pooling1,
 			conv_back_propagation(pooling1->output, conv2, pooling2);
 			pool_back_propagation2(pooling1, conv2);
 			conv_back_propagation(input->train_data + (i*BATCH_SIZE + j)*
-								  INPUT_LENGTH, conv1, pooling1);
+                                  INPUT_LENGTH, conv1, pooling1);
 
 			//update each weight
 			update_fc_weight(output);
